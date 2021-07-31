@@ -1,4 +1,4 @@
-package Datastructure;
+package Datastructure.Arrays;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class LastIndex {
       }
       int r=0;
       for(int i=0;i<n;i++) {
-    	  for(int j=n-1;j>=i;j--) {
+    	  for(int j=n-1;j>=i;j--) {                       //last index of duplicate element
     		  if(a[i]==a[j]) {
     			r=j;  
     		  }

@@ -1,5 +1,4 @@
 package Exceptionhandling;
-@SuppressWarnings("serial") 
 class Voter 
 { 
  	int age; 
@@ -27,7 +26,7 @@ class Voter
  	} 
 } 
 
-public class CanVote {
+public class CanVoter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

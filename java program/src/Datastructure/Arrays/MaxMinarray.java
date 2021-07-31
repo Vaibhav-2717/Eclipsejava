@@ -1,4 +1,4 @@
-package Datastructure;
+package Datastructure.Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -21,7 +21,7 @@ for(int i=0;i<n;i++) {
 System.out.println(a[i]);
 }
 System.out.println("max element="+a[n-1]);
-System.out.println("max element="+a[0]);
+System.out.println("min element="+a[0]);
 	}
 
 }
